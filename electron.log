@@ -1,0 +1,16 @@
+
+> angel-guardian@1.0.0 electron-dev
+> concurrently "npm run dev" "wait-on http://localhost:3000 && electron ."
+
+[0] 
+[0] > angel-guardian@1.0.0 dev
+[0] > next dev
+[0] 
+[0]  ⚠ Port 3000 is in use, trying 3001 instead.
+[0]    ▲ Next.js 14.0.3
+[0]    - Local:        http://localhost:3001
+[0] 
+[1] [0529/154934.242128:FATAL:electron_main_delegate.cc(295)] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.
+[1] /app/node_modules/electron/dist/electron exited with signal SIGTRAP
+[1] wait-on http://localhost:3000 && electron . exited with code 1
+[0]  ✓ Ready in 2.4s
